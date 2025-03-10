@@ -2,14 +2,6 @@ body {
   background-color: #f9f7fe;
   font-family: sans-serif;
 }
-.container {
-  max-width: 600px;
-  margin: 60px auto;
-  background-color: white;
-  padding: 30px;
-  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
-  border-radius: 10px;
-}
 
 h1 {
   text-align: center;
@@ -27,6 +19,16 @@ select {
   border-radius: 4px;
   padding: 10px;
 }
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+  border-radius: 10px;
+}
+
 .city {
   display: flex;
   margin: 10px 0;
@@ -48,6 +50,7 @@ select {
 .time small {
   font-size: 24px;
   vertical-align: middle;
+  line-height: 48px;
 }
 
 footer {
