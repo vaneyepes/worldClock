@@ -1,4 +1,17 @@
 function updateTime() {
+  // amsterdam
+  let amsterdamElement = document.querySelector("#amsterdam");
+  if (amsterdamElement) {
+    let amsterdamDateElement = amsterdamElement.querySelector(".date");
+    let amsterdamTimeElement = amsterdamElement.querySelector(".time");
+    let amsterdamTime = moment().tz("Europe/amsterdam");
+
+    amsterdamDateElement.innerHTML = amsterdamTime.format("MMMM	Do YYYY");
+    amsterdamTimeElement.innerHTML = amsterdamTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
   // Los Angeles
   let losAngelesElement = document.querySelector("#los-angeles");
   if (losAngelesElement) {
