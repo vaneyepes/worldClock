@@ -1,3 +1,7 @@
+
+![App Screenshot](screenshotClock.png)
+
+
 # World Clock
 Displays current time for multiple cities around the world.
 
